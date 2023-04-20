@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form employee</title>
+</head>
+<body>
+    <form action="/employee" method="post" th:object="${employee}">
+        Name: <label>
+        <input type="text" th:field="*{name}" />
+    </label>
+        Age: <label>
+        <input type="text" th:field="*{age}"/>
+    </label>
+        Phone number: <label>
+        <input type="text" th:field="*{number}"/>
+    </label>
+        <input type="submit" value="Submit"/>
+    </form>
+</body>
+</html>

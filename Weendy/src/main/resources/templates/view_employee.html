@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View employee</title>
+</head>
+<body>
+  <form action="/employee">
+    Name: <span th:text="*{name}"></span>
+    Age: <span th:text="*{age}"></span>
+    Phone number: <span th:text="*{number}"></span>
+    <input type="submit" value="Back"/>
+  </form>
+</body>
+</html>

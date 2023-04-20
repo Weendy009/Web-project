@@ -9,5 +9,4 @@ public class WeendysApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(WeendysApplication.class, args);
 	}
-
 }
